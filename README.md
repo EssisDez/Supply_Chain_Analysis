@@ -40,7 +40,7 @@ The project was developed using Python and business analytics methodologies to:
 * Simulate optimization scenarios
 
 
-     Key Findings
+      Key Findings
 
 ### Inventory Cost Analysis
 
