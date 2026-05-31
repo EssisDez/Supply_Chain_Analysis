@@ -1,152 +1,127 @@
-﻿# Supply_Chain_Analysis
-# Grocery Supply Chain Optimization
+# Supply Chain Optimization & Inventory Analytics
 
-## Project Overview
+     Executive Summary
 
-This project analyzes and optimizes a grocery supply chain using data analytics and visualization techniques.
+This project applies data analytics techniques to evaluate and optimize a grocery supply chain. The analysis focuses on inventory performance, supplier contribution, delivery efficiency, and operational costs to identify opportunities for improving overall supply chain performance.
 
-The supply chain flow includes:
+The project combines exploratory data analysis (EDA), KPI development, supply chain modeling, and scenario-based optimization to support data-driven business decisions.
 
-Supplier → Manufacturer → Warehouse → Customer
 
-### Project Goals
 
-* Reduce inventory and operational costs
-* Improve delivery efficiency
-* Optimize inventory management
-* Support better supply chain decision-making
+     Business Objective
 
----
+The objective of this project is to improve supply chain efficiency by:
 
-# Technologies Used
+* Reducing inventory-related costs
+* Improving delivery performance
+* Optimizing inventory levels
+* Enhancing operational visibility
+* Supporting data-driven decision-making
+
+
+     Supply Chain Model
+
+The analysis focuses on the following supply chain structure:
+
+**Supplier → Manufacturer → Warehouse → Customer**
+
+This model was used to evaluate inventory flow, operational performance, and potential optimization opportunities throughout the supply chain.
+
+
+     Analytical Approach
+
+The project was developed using Python and business analytics methodologies to:
+
+* Analyze inventory costs across product categories
+* Evaluate supplier performance using sales volume
+* Measure delivery performance
+* Assess inventory risk and stock levels
+* Develop operational KPIs
+* Simulate optimization scenarios
+
+
+     Key Findings
+
+### Inventory Cost Analysis
+
+Inventory cost analysis revealed significant differences between product categories. Certain categories represented a disproportionately large share of total inventory investment, highlighting opportunities for inventory optimization and cost reduction.
+
+### Supplier Performance Analysis
+
+Supplier sales analysis showed that a small group of suppliers generated the highest sales volumes. These suppliers play a critical role in maintaining supply chain performance and should be prioritized for supplier relationship management and procurement planning.
+
+### Supply Chain Visibility
+
+The supply chain flow model provided a clear representation of product movement from suppliers to customers, improving operational visibility and supporting process evaluation.
+
+### KPI Performance
+
+Key operational metrics were developed to measure:
+
+* Inventory Cost
+* Delivery Time
+* Inventory Levels
+
+These KPIs provided a baseline for evaluating optimization opportunities.
+
+
+     Optimization Scenarios
+
+
+Several improvement scenarios were evaluated:
+
+### Cost Reduction
+
+Simulated inventory cost reductions to assess potential financial benefits and operational impact.
+
+### Delivery Improvement
+
+Evaluated opportunities to reduce delivery times and improve service performance.
+
+### Inventory Optimization
+
+Analyzed inventory levels to identify opportunities for reducing excess stock while maintaining product availability.
+
+
+     Business Impact
+
+The analysis demonstrates how data analytics can support:
+
+* Supply Chain Optimization
+* Inventory Management
+* Supplier Performance Monitoring
+* Operational Efficiency
+* KPI-Driven Decision Making
+
+The project highlights how organizations can leverage analytics to improve visibility, reduce costs, and enhance overall supply chain performance.
+
+
+     Technologies
 
 * Python
-* Jupyter Notebook
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
 * NetworkX
+* Jupyter Notebook
 
----
 
-# Dataset
+     Skills Demonstrated
 
-The project uses a Grocery Inventory and Sales dataset containing:
+* Supply Chain Analytics
+* Business Analytics
+* Exploratory Data Analysis (EDA)
+* KPI Development
+* Data Visualization
+* Inventory Optimization
+* Operational Performance Analysis
+* Data-Driven Decision Making
 
-* Product information
-* Supplier details
-* Inventory data
-* Warehouse data
-* Sales volume
-* Reorder levels
-* Expiration dates
-* Inventory turnover rates
 
----
+      Author
+  
 
-# Project Workflow
+**Dési Essis**
 
-## 1. Data Loading
-
-The dataset was imported using Pandas and explored to understand its structure.
-
-## 2. Data Cleaning
-
-The following preprocessing steps were performed:
-
-* Removed unnecessary spaces from column names
-* Converted date columns into datetime format
-* Converted price columns into numeric format
-* Checked for missing values
-
-## 3. Feature Engineering
-
-New business metrics were created, including:
-
-* Total Inventory Cost
-* Delivery Time
-* Days to Expiry
-* Inventory Risk Score
-* Inventory Status
-
-## 4. Exploratory Data Analysis (EDA)
-
-Visualizations included:
-
-* Inventory cost by category
-* Top suppliers by sales volume
-* Inventory turnover distribution
-* Supply chain flow diagram
-
-## 5. KPI Analysis
-
-Key performance indicators were calculated:
-
-* Total Inventory Cost
-* Average Delivery Time
-* Average Inventory Level
-* Low Stock Products
-
-## 6. Supply Chain Optimization
-
-Scenario testing was performed to simulate improvements:
-
-### Faster Delivery
-
-Reduced delivery time by improving transportation efficiency.
-
-### Cost Reduction
-
-Reduced operational and inventory costs.
-
-### Inventory Optimization
-
-Optimized stock levels to reduce overstocking and shortages.
-
----
-
-# Key Findings
-
-* Some suppliers generated significantly higher sales volumes.
-* Inventory risks were identified using reorder levels and expiry dates.
-* Optimization scenarios improved operational efficiency.
-* Data analytics can support smarter supply chain decisions.
-
----
-
-# Business Impact
-
-This project demonstrates how data analytics can help businesses:
-
-* Improve supply chain visibility
-* Reduce inventory costs
-* Improve delivery performance
-* Optimize stock management
-* Support data-driven decision-making
-
----
-
-# Future Improvements
-
-Potential future enhancements include:
-
-* Demand forecasting using machine learning
-* Real-time inventory monitoring
-* Route optimization for logistics
-* Predictive supply chain analytics
-
----
-
-# Conclusion
-
-This project demonstrates how Python and data analytics can be used to optimize a grocery supply chain.
-
-Using EDA, KPI analysis, and optimization scenarios, the project provides valuable business insights for improving operational efficiency and inventory management.
-
----
-
-# Author
-
-Dési Essis
 MBA in Data Science & Artificial Intelligence
