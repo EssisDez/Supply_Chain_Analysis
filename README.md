@@ -7,7 +7,6 @@ This project applies data analytics techniques to evaluate and optimize a grocer
 The project combines exploratory data analysis (EDA), KPI development, supply chain modeling, and scenario-based optimization to support data-driven business decisions.
 
 
-
      Business Objective
 
 The objective of this project is to improve supply chain efficiency by:
@@ -18,6 +17,7 @@ The objective of this project is to improve supply chain efficiency by:
 * Enhancing operational visibility
 * Supporting data-driven decision-making
 
+---
 
      Supply Chain Model
 
@@ -39,7 +39,7 @@ The project was developed using Python and business analytics methodologies to:
 * Develop operational KPIs
 * Simulate optimization scenarios
 
-
+---
       Key Findings
 
 ### Inventory Cost Analysis
@@ -106,8 +106,9 @@ The project highlights how organizations can leverage analytics to improve visib
 * NetworkX
 * Jupyter Notebook
 
+---
 
-     Skills Demonstrated
+      Skills Demonstrated
 
 * Supply Chain Analytics
 * Business Analytics
@@ -118,7 +119,7 @@ The project highlights how organizations can leverage analytics to improve visib
 * Operational Performance Analysis
 * Data-Driven Decision Making
 
-
+---
       Author
   
 
