@@ -44,17 +44,30 @@ The project was developed using Python and business analytics methodologies to:
 
 ### Inventory Cost Analysis
 
+![Inventory Cost](visuals/inventory_by_category.png)
+
 Inventory cost analysis revealed significant differences between product categories. Certain categories represented a disproportionately large share of total inventory investment, highlighting opportunities for inventory optimization and cost reduction.
 
 ### Supplier Performance Analysis
+
+![Suppliers](visuals/supplier_by_sales.png)
 
 Supplier sales analysis showed that a small group of suppliers generated the highest sales volumes. These suppliers play a critical role in maintaining supply chain performance and should be prioritized for supplier relationship management and procurement planning.
 
 ### Supply Chain Visibility
 
+![Supply Chain](visuals/supply_chain_flow.png)
+
 The supply chain flow model provided a clear representation of product movement from suppliers to customers, improving operational visibility and supporting process evaluation.
 
 ### KPI Performance
+
+| Metric            | Before       | After     |
+|------------------|-------------|-------------|
+| Inventory Cost   | 336.014859  | 302.413373  |
+| Delivery Time    | -2.710101   | -2.168081   |
+| Inventory Level  | 55.609091   | 47.267727   |
+
 
 Key operational metrics were developed to measure:
 
@@ -62,7 +75,9 @@ Key operational metrics were developed to measure:
 * Delivery Time
 * Inventory Levels
 
-These KPIs provided a baseline for evaluating optimization opportunities.
+After optimization, the system shows clear improvement across all key metrics. Inventory cost decreased significantly, indicating better cost efficiency and reduced overstocking. Delivery time improved (values moved closer to optimal range), suggesting faster and more stable logistics performance. Inventory levels also dropped, reflecting a leaner and more efficient supply chain.
+
+Overall, the results confirm that the optimization approach successfully improved operational efficiency and reduced costs.
 
 
      Optimization Scenarios
